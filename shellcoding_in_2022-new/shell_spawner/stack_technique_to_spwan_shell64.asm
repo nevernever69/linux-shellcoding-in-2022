@@ -17,7 +17,7 @@ _start:
 	xor rdx, rdx
 	syscall
 	
-	mov rax, rax
+	xor rax, rax
 	mov al, 60
 	xor rdi,rdi
 	syscall
